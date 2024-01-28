@@ -8,27 +8,28 @@ The program reads a file with dorks, then searches for sites based on them and c
 ## Installation
 
 1. Clone the repository:
-
+```console
 $ git clone https://github.com/LolzPrince/lighter.git
-
+```
 2. Go to the project directory:
-
+```console
 $ cd lighter
-
+```
 3. Install the necessary dependencies:
-
+```console
 $ pip install -r requirements.txt
-
+```
 ## Usage
 
-plaintext
+```console
 python3 lighter.py path [options]
+```
 ### Arguments
 
 - path: Path to the file with dorks.
 
 ### Options
-
+```console
 - -h, --help: Show help.
 - -r, --random-agent: Use random user-agent.
 - -s SLEEP_INTERVAL, --sleep-interval SLEEP_INTERVAL: Specify an integer parameter for the time interval between requests to dorks.
@@ -37,6 +38,7 @@ python3 lighter.py path [options]
 - -l LANG, --lang LANG: Select a language to search for dorks. Example: en. Default: en.
 - -w, --write-result: Use this flag to write the successful URL to a file.
 - -p PROXY_LIST, --proxy-list PROXY_LIST: Path to the proxy file [http, https].
+```
 ## License
 
 This project is licensed under the terms of the MIT License - see file [LICENSE](LICENSE) for details
