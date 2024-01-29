@@ -35,7 +35,7 @@ FILTERS = [
     "git"
 ]
 
-swiths = [
+SWITHS = [
     "html",
     "txt",
     "pdf"
@@ -61,7 +61,7 @@ def validate_url(url: str) -> bool:
     for stop_word in FILTERS:
         if stop_word in url:
             return False
-    for swith in swiths:
+    for swith in SWITHS:
         if url.endswith(swith):
             return False
     return True
