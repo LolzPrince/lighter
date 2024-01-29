@@ -35,6 +35,12 @@ FILTERS = [
     "git"
 ]
 
+swiths = [
+    "html",
+    "txt",
+    "pdf"
+]
+
 filename = "./results/" + time.strftime("%Y-%m-%d %H-%M") + ".txt"
 proxyes = []
 
@@ -50,8 +56,13 @@ def check_proxy(proxy):
 
 
 def validate_url(url: str) -> bool:
+    if "=" not in url:
+        return False
     for stop_word in FILTERS:
         if stop_word in url:
+            return False
+    for swith in swiths:
+        if url.endswith(swith):
             return False
     return True
 
