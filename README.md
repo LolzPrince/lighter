@@ -13,7 +13,7 @@ $ git clone https://github.com/LolzPrince/lighter.git
 ```
 2. Go to the project directory:
 ```console
-$ cd lighter
+$ cd lighter/lighter
 ```
 3. Install the necessary dependencies:
 ```console
