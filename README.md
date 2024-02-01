@@ -9,15 +9,15 @@ The program reads a file with dorks, then searches for sites based on them and c
 
 1. Clone the repository:
 ```console
-$ git clone https://github.com/LolzPrince/lighter.git
+git clone https://github.com/LolzPrince/lighter.git
 ```
 2. Go to the project directory:
 ```console
-$ cd lighter/lighter
+cd lighter/lighter
 ```
 3. Install the necessary dependencies:
 ```console
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ## Usage
 
