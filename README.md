@@ -30,14 +30,14 @@ python3 lighter.py path [options]
 
 ### Options
 ```console
-- -h, --help: Show help.
-- -r, --random-agent: Use random user-agent.
-- -s SLEEP_INTERVAL, --sleep-interval SLEEP_INTERVAL: Specify an integer parameter for the time interval between requests to dorks.
-- -t TIMEOUT, --timeout TIMEOUT: Specify an integer parameter for the time interval between page requests.
-- -c COUNT, --count COUNT: Specify an integer parameter for the number of links received in one request to the dork. Default: 20.
-- -l LANG, --lang LANG: Select a language to search for dorks. Example: en. Default: en.
-- -w, --write-result: Use this flag to write the successful URL to a file.
-- -p PROXY_LIST, --proxy-list PROXY_LIST: Path to the proxy file [http, https].
+-h, --help: Show help.
+-r, --random-agent: Use random user-agent.
+-s SLEEP_INTERVAL, --sleep-interval SLEEP_INTERVAL: Specify an integer parameter for the time interval between requests to dorks.
+-t TIMEOUT, --timeout TIMEOUT: Specify an integer parameter for the time interval between page requests.
+-c COUNT, --count COUNT: Specify an integer parameter for the number of links received in one request to the dork. Default: 20.
+-l LANG, --lang LANG: Select a language to search for dorks. Example: en. Default: en.
+-w, --write-result: Use this flag to write the successful URL to a file.
+-p PROXY_LIST, --proxy-list PROXY_LIST: Path to the proxy file [http, https].
 ```
 ## License
 
